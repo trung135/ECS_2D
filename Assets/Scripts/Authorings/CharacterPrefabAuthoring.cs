@@ -9,7 +9,7 @@ class CharacterPrefabAuthoring : MonoBehaviour
         {
             Entity entity = GetEntity(TransformUsageFlags.Dynamic);
             AddComponent<InputData>(entity);
-            AddComponent(entity, new SpeedData { Value = 10 });
+            AddComponent(entity, new SpeedData { Value = 5 });
         }
     }
 }
